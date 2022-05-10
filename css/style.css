@@ -177,6 +177,8 @@ h2 {
 
 lesson {
   margin: 0;
-  font-size: 1.5em;
-  font-family: 'Brush Script MT', cursive;
+  font-size: 2em;
+  color: #3F4375;
+  background-color: #FEFDBD;
+  font-family: 'Trebuchet MS', sans-serif;
 }
