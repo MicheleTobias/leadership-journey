@@ -150,7 +150,7 @@ $(window).on('load', function() {
         chapterCount += 1;
 		
 		var star-marker: L.icon({
-			iconURL: '../media/Star_Marker.png',
+			iconURL: '../media/Star_Marker.png'
 		});
 		
         markers.push(
