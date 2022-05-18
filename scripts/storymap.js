@@ -149,7 +149,7 @@ $(window).on('load', function() {
 
         chapterCount += 1;
 		
-		var star-marker: L.icon({
+		var starmarker: L.icon({
 			iconURL: '../media/Star_Marker.png'
 		});
 		
@@ -157,7 +157,7 @@ $(window).on('load', function() {
           L.marker([lat, lon], {
             icon: L.ExtraMarkers.icon({
               //icon: 'fa-number',
-			  icon: 'star-marker',
+			  icon: 'starmarker',
               number: c['Marker'] === 'Plain' ? '' : chapterCount,
               markerColor: c['Marker Color'] || 'blue'
             }),
