@@ -140,6 +140,7 @@ a.source:visited {
 */
 .marker-active {
   background-position: -72px 0 !important;
+  background: url("media/Star_Marker.png") no-repeat 0 0;
 }
 
 /* Storymap logo image above the title */
