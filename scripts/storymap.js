@@ -148,12 +148,16 @@ $(window).on('load', function() {
         var lon = parseFloat(c['Longitude']);
 
         chapterCount += 1;
-
+		
+		var star-marker: L.icon({
+			iconURL: '../media/Star_Marker.png',
+		});
+		
         markers.push(
           L.marker([lat, lon], {
             icon: L.ExtraMarkers.icon({
               //icon: 'fa-number',
-			  icon: url("../media/Star_Marker.png"),
+			  icon: 'star-marker',
               number: c['Marker'] === 'Plain' ? '' : chapterCount,
               markerColor: c['Marker Color'] || 'blue'
             }),

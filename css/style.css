@@ -132,7 +132,7 @@ a.source:visited {
 
 .leaflet-marker-icon {
   opacity: 0.75;
-  icon: url("../media/Star_Marker.png");
+  /*icon: url("../media/Star_Marker.png");*/
   /*width: 35px; */
   /*height: 35px; */
 }
