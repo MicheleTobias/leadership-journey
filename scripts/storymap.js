@@ -149,7 +149,7 @@ $(window).on('load', function() {
 
         chapterCount += 1;
 		
-		var starmarker: L.icon({
+		var starmarker = L.icon({
 			iconURL: '../media/Star_Marker.png'
 		});
 		
