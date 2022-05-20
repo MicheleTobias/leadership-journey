@@ -82,8 +82,8 @@ body {
 .img-container {
   margin: 0;
   margin-bottom: 5px;
-  height: 200px;
-  max-height: 200px;
+  height: 100px; /*200px*/
+  max-height: 100px; /*200px*/
   width: 100%;
 }
 
@@ -98,7 +98,7 @@ body {
 .chapter-header {
   display: block;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 0 5px;
 }
 
