@@ -98,7 +98,8 @@ body {
 .chapter-header {
   display: block;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em; /*1.5*/
+  font-weight: bold;
   padding: 0 5px;
 }
 
